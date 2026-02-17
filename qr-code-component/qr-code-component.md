@@ -13,7 +13,7 @@ A simple and clean QR code card component. Users can scan the QR code to visit F
 - HTML5
 - CSS3
 - Flexbox
-- Google Fonts (Oswald)
+- Google Fonts (Inter)
 
 ## Features
 
