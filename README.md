@@ -7,6 +7,7 @@ This repository contains my solutions to various [Frontend Mentor](https://www.f
 | Challenge | Live Demo | Repo |
 |-----------|-----------|------|
 | [QR Code Component](./qr-code-component/qr-code-component.md) | [Live](https://emre-44.github.io/frontend-mentor-projects/qr-code-component) | [Code](./qr-code-component) |
+| [Blog Preview Card](./blog-preview-card/blog-preview-card.md) | [Live](https://emre-44.github.io/frontend-mentor-projects/blog-preview-card) | [Code](./blog-preview-card) |
 
 
 ## About

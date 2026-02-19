@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lexend', sans-serif;
+    background-color: #f0ca44;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+
+.preview-card {
+    max-width: 380px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0px 0px black;
+    border: 1px solid black;
+    overflow: hidden;  
+}
+
+
+.preview-card-image {
+    background-color: white;  
+}
+
+.preview-card-image img {
+    
+    margin: 6%;
+    width: 90%;
+    height: auto;
+    display: block;
+    border-radius: 25px;
+   
+}
+
+
+.card-header {
+    padding: 20px 20px 0 20px;  
+}
+
+.tag p {
+    background-color: #f0ca44;
+    padding: 6px 12px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: 800;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.card-header time {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+.text-content {
+    padding: 0 20px 20px 20px;  
+}
+
+.text-content h1 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.text-content h1:hover {
+    color: #f0ca44;
+}
+
+.text-content p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+
+.card-footer {
+    padding: 0 20px 20px 20px;  
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.card-footer img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card-footer p {
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.card-footer a {
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    transition: color 0.3s;
+}
+
+.card-footer a:hover {
+    color: #f0ca44;
+    text-decoration: underline;
+}
+
